@@ -38,12 +38,6 @@ const Body = styled.main`
   }
 `
 
-const Dodo = styled.div`
-  font-size: 3rem;
-  line-height: 2rem;
-  margin: 0;
-`
-
 const SvgLogo = styled(Logo)`
   width: 100%;
   max-width: 300px;
@@ -64,7 +58,6 @@ const IndexPage = () => {
       </Helmet>
       <Body>
         <SvgLogo />
-        <Dodo>🦤</Dodo>
         <h2>Hello World</h2>
         <p>We are the Mauritius <strong>Fun</strong>ctional <strong>Pro</strong>grammers Community</p>
       </Body>

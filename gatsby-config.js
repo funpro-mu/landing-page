@@ -7,9 +7,9 @@ module.exports = {
     `gatsby-plugin-sharp`,
     "gatsby-plugin-styled-components",
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: "gatsby-plugin-google-gtag",
       options: {
-        trackingId: "G-QGTPFV0FFK",
+        trackingIds: ["G-QGTPFV0FFK"],
       },
     },
     {
